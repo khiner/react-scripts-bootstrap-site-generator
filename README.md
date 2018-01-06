@@ -30,7 +30,9 @@ $ npm start
 
 That's it!
 
-Your browser should load a new tab to `localhost:3000` and you'll be greeted with the example app.
+Your browser should load a new tab to `localhost:3000` and you'll be greeted with the example app:
+
+![](https://user-images.githubusercontent.com/685394/34635675-ed9c5c50-f247-11e7-9524-3d424484af6a.png)
 
 ## Adding new pages and content
 
@@ -123,7 +125,6 @@ export default {
   showShareNavItem: false,
 }
 ```
-
 
 For more information about `create-react-app` and for tons of information about configuring and extending it, please refer to the original documentation:
 * [Getting Started](https://github.com/facebookincubator/create-react-app/blob/master/README.md#getting-started) – How to create a new app.
