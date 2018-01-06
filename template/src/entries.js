@@ -61,7 +61,7 @@ const entries = [
   },
   {
     path: '/static_page',
-    title: 'Static page',
+    title: 'Static Page',
     content: "This content won't show up in the summary list since it doesn't have a date. Good for 'About' sections and the like.",
   },
 ]

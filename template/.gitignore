@@ -19,3 +19,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# since we're preprocessing to sass using build-css and watch-css
+src/**/*.css
