@@ -1,6 +1,6 @@
 # react-scripts-bootstrap-site-generator
 
-This package builds on top of the default [react-scripts](https://github.com/facebookincubator/create-react-app/tree/master/packages/react-scripts) scripts and configuration used by [Create React App](https://github.com/facebookincubator/create-react-app).
+This [npm package](https://www.npmjs.com/package/react-scripts-bootstrap-site-generator) builds on top of the default [react-scripts](https://github.com/facebookincubator/create-react-app/tree/master/packages/react-scripts) scripts and configuration used by [Create React App](https://github.com/facebookincubator/create-react-app).
 
 The packages and template have been adapted to work as a crazy simple, opinionated static site generator using bootstrap and a custom config format.
 
