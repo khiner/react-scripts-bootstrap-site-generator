@@ -53,7 +53,7 @@ In your created app, you'll find all of the example app content in `src/entries.
 },
 ```
 
-That's all it takes to generate everything from a summary card in the index page linking to a separate page with content, including prepopulated social media share links and a Disqus comment section!
+That's all it takes to generate everything from a dropdown nav item, and summary card in the index page linking to a separate page with content, including prepopulated social media share links and a Disqus comment section!
 
 Here's a more complex one with documentation explaining all the keys:
 
