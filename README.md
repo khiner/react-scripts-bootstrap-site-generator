@@ -40,7 +40,25 @@ Your browser should load a new tab to `localhost:3000` and you'll be greeted wit
 All content is specified in the form of `entries`.
 In your created app, you'll find all of the example app content in `src/entries.js`, along with the following documentation:
 
+### Example of a simple `entry`
+
+```JSX
+{
+  path: '/example_section/post',
+  title: 'Another Sweet Post',
+  disqusId: 'AnotherSweetPost',
+  date: 'Jan 3 2017',
+  description: 'Non-structured description',
+  content: 'Simple content',
+},
+```
+
+That's all it takes to generate everything from a summary card in the index page linking to a separate page with content, including prepopulated social media share links and a Disqus comment section!
+
+Here's a more complex one with documentation explaining all the keys:
+
 ### Example `entry` with documentation
+
 ```JSX
 {
   // `path` is a relative URL path for the entry
