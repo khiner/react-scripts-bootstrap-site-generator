@@ -6,6 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 import { render } from 'react-snapshot'
 
 import './app/style/App.css'
+import './style.css'
 import App from './app/App'
 import registerServiceWorker from './app/registerServiceWorker'
 

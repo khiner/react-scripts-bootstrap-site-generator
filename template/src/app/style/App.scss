@@ -5,10 +5,6 @@
 body {
   font-family: 'Proxima Nova';
   font-weight: 400;
-
-  a {
-    color: #121212;
-  }
 }
 
 .mainContent {
@@ -107,21 +103,4 @@ body {
 .summaryList a:hover {
   cursor: pointer;
   text-decoration: none;
-}
-
-/*https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php*/
-.videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%; /* 16:9 */
-  padding-top: 25px;
-  height: 0;
-
-  iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    padding-bottom: 20px;
-  }
 }

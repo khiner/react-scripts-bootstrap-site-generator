@@ -106,6 +106,11 @@ Here's a more complex one with documentation explaining all the keys:
 }
 ```
 
+## Modifying styles
+
+Add any styles to `src/style.scss`.  This file is loaded after the default styles and `npm start` watches all `.scss` files
+for changes while the app is running and regenerates a `.css` file next to its `.scss` file, resulting in a hot reload.
+
 ## Configuration
 
 See `src/config.js` for all config options:
