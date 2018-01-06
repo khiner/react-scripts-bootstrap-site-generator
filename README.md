@@ -21,7 +21,7 @@ expect to modify the code generated in `src/app` to suit your needs.*
 
 ## Setting up a new site
 
-```
+```bash
 $ npm install -g create-react-app
 $ create-react-app my-app --scripts-version react-scripts-bootstrap-site-generator
 $ cd my-app
@@ -41,7 +41,7 @@ All content is specified in the form of `entries`.
 In your created app, you'll find all of the example app content in `src/entries.js`, along with the following documentation:
 
 ### Example `entry` with documentation
-```
+```JSX
 {
   // `path` is a relative URL path for the entry
   // Nav dropdowns automatically group paths with identical first segments.
@@ -92,7 +92,7 @@ In your created app, you'll find all of the example app content in `src/entries.
 
 See `src/config.js` for all config options:
 
-```
+```JXS
 export default {
   // `siteName` is used for the main site title in the nav, prepended to browser tab names for each route,
   // and for titles in site metadata used by crawlers.
@@ -131,7 +131,7 @@ export default {
 
 For an optimized build ready for deployment:
 
-```
+```bash
 $ npm run build
 ```
 
@@ -140,7 +140,18 @@ to perform static pre-renderering of all routes.
 
 To deploy, just copy the contents of that build folder to your hosting service however you'd like!
 
+## Configuration additions to Create React App
 
+### Pre-rendering into static HTML files based on react-router routes
+I followed this guide to get static HTML links and and SEO titles working using react-snapshot and react-helmet.
+
+### Sass
+I followed this guid to add support for the CSS preprocessor, Sass.
+
+### Linting and automatic styling
+I followed this guide for a nice default eslint setup using AirBnb's eslint rules and prettier, and made modifications to Prettier settings in package.json.
+
+## Create React App info
 For more information about `create-react-app` and how to configure and extend it, please refer to the original documentation:
 * [Getting Started](https://github.com/facebookincubator/create-react-app/blob/master/README.md#getting-started) – How to create a new app.
 * [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md) – How to develop apps bootstrapped with Create React App.
