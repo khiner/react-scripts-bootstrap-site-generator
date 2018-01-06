@@ -4,7 +4,7 @@ export default {
   siteName: 'React Bootstrap Site',
   // `shareName` is an optional different name to use in share posts. Defaults to `siteName` value.
   shareName: '',
-  // If you have a Disqus account, find your shortname under /admin/settings/general.
+  // If you have a Disqus account, find your shortname under your Disqus page's /admin/settings/general.
   // Populate this and add a `disqusId` to each post you'd like to embed a Disqus comment section at the bottom
   disqusShortname: '',
   // The full qualified hostname where this site will live.
@@ -16,7 +16,7 @@ export default {
   topLevelLinks: [
     {
       label: 'GitHub',
-      href: 'https://github.com/',
+      href: 'https://github.com/khiner/react-scripts-bootstrap-site-generator',
     },
   ],
   // Fill in your handle to include in Twitter share links
