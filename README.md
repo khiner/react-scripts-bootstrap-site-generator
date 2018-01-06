@@ -7,12 +7,12 @@ The packages and template have been adapted to work as a crazy simple, opinionat
 To see an example of a full site using this framework, check out [my portfolio page](https://karlhiner.com/).
 
 ## Design goals
-* Make it as quick as possible to get *something meaningful* in your local browser.
-* Make adding new content as quick as possible, while still allowing the content itself to be arbitrarily complex.
-* Separate *form* from *content* - Writing a new `entry` only requires adding a new item to the `entries.js` file.
+* Make it as quick as possible to get *something meaningful* in the browser.
+* Make adding new content as quick as possible, while still allowing content to be arbitrarily complex.
+* Separate form from content - writing a new entry should only require touching one file for the usual case.
 * Automate the boring stuff - nested nav generation, site and page metadata for search engine crawlers, static html generation, browser tab titles.
-* Automatic, sane and customizable sharing, following and commenting for each post with prepopulated social media links, a mailing list and Disqus.
-* One-step deployment: run `npm build` and `scp` the `build` directory to my hosting service's `public_html` directory.
+* Automatic social media stuff per-post
+* Straightforward deployment: run `npm build` and `scp` the `build` directory to my hosting service's `public_html` directory.
 
 *Disclaimer: This project was built to suit the needs of the author, and in particular the portfolio page above.
 Although it is somewhat expressive, it is not designed to be highly robust and extensible.  For more complex projects,
