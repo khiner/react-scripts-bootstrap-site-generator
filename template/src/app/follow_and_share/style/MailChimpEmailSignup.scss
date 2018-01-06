@@ -1,0 +1,21 @@
+@import './slim-10_7.css';
+
+#mc_embed_signup {
+  clear:left;
+  font:14px Helvetica,Arial,sans-serif;
+
+  form {
+    padding: 10px !important;
+  }
+  input {
+    width: 100% !important;
+
+    &.button {
+      margin: 0 !important;
+    }
+    &.email {
+      min-width: 200px !important;
+      margin: 0 0 10px 0 !important;
+    }
+  }
+}

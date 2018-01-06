@@ -1,0 +1,13 @@
+@import url(./slim-10_7.css);
+#mc_embed_signup {
+  clear: left;
+  font: 14px Helvetica,Arial,sans-serif; }
+  #mc_embed_signup form {
+    padding: 10px !important; }
+  #mc_embed_signup input {
+    width: 100% !important; }
+    #mc_embed_signup input.button {
+      margin: 0 !important; }
+    #mc_embed_signup input.email {
+      min-width: 200px !important;
+      margin: 0 0 10px 0 !important; }

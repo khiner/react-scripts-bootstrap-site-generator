@@ -1,0 +1,24 @@
+.shareButtonsParent {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  p {
+    font-size: 24px;
+    margin: 5px !important;
+  }
+
+  .shareButtons {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    padding: 5px 0;
+
+    img {
+      width: 30px;
+      margin: 0 5px !important;
+      border: 0;
+      box-shadow: 0;
+    }
+  }
+}
