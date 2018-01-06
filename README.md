@@ -7,12 +7,13 @@ The packages and template have been adapted to work as a crazy simple, opinionat
 To see an example of a full site using this framework, check out [my portfolio page](https://karlhiner.com/).
 
 ## Design goals
-* Make it as quick as possible to get *something meaningful* in the browser.
-* Make adding new content as quick as possible, while still allowing content to be arbitrarily complex.
-* Separate form from content - writing a new entry should only require touching one file for the usual case.
-* Automate the boring stuff - nested nav generation, site and page metadata for search engine crawlers, static html generation, browser tab titles.
+* Make it as quick as possible to get *something meaningful* in the browser
+* Make adding new content as quick as possible, while still allowing content to be arbitrarily complex
+* Separate form from content - writing a new entry should only require touching one file for the usual case
+* Automate the boring stuff - nested nav generation, site and page metadata for search engine crawlers, static html generation, browser tab titles
 * Automatic social media stuff per-post
-* Straightforward deployment: run `npm build` and `scp` the `build` directory to my hosting service's `public_html` directory.
+* Straightforward deployment: run `npm build` and `scp` the `build` directory to my hosting service's `public_html` directory
+* A modern stack with all the trimmings, including a precommit hook for automatic style-enforcement and sass support with file watching
 
 *Disclaimer: This project was built to suit the needs of the author, and in particular the portfolio page above.
 Although it is somewhat expressive, it is not designed to be highly robust and extensible.  For more complex projects,
@@ -126,6 +127,20 @@ export default {
 }
 ```
 
-For more information about `create-react-app` and for tons of information about configuring and extending it, please refer to the original documentation:
+## Building & Deploying
+
+For an optimized build ready for deployment:
+
+```
+$ npm run build
+```
+
+In addition to the usual `create-react-app` build, this will also run [`react-snapshot`](https://github.com/geelen/react-snapshot/)
+to perform static pre-renderering of all routes.
+
+To deploy, just copy the contents of that build folder to your hosting service however you'd like!
+
+
+For more information about `create-react-app` and how to configure and extend it, please refer to the original documentation:
 * [Getting Started](https://github.com/facebookincubator/create-react-app/blob/master/README.md#getting-started) – How to create a new app.
 * [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md) – How to develop apps bootstrapped with Create React App.
