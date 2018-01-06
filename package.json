@@ -1,6 +1,6 @@
 {
   "name": "react-scripts-bootstrap-site-generator",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Configuration and scripts for Create React App, customized to work as a crazy simple static site generator.",
   "repository": "khiner/create-react-app",
   "license": "MIT",
