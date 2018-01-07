@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import { Route } from 'react-router-dom'
 
+import Sidebar from './Sidebar'
 import SummaryList from './SummaryList'
 import Entry from './Entry'
 import { stripSlashes } from './utils'
 
+import config from '../config'
 import parsedEntries from './parsedEntries'
 
 export default class MainContent extends Component {
@@ -26,7 +28,13 @@ export default class MainContent extends Component {
 
   render() {
     return (
-      <div>
+      <div className="contentWrapper">
+        {config.entriesInSidebar && (
+          <Sidebar
+            shouldShow={this.props.shouldShowSidebar}
+            toggle={this.props.toggleSidebar}
+          />
+        )}
         <Route exact path="/" component={SummaryList} />
         {parsedEntries.all.map(entry => this.generateRoute(entry))}
       </div>

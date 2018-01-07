@@ -5,6 +5,17 @@
 body {
   font-family: 'Proxima Nova';
   font-weight: 400;
+
+  .contentWrapper {
+    margin-top: 60px;
+  }
+
+  .navbar-static-top {
+    .container {
+      // sidebar screws this up...
+      width: 100%;
+    }
+  }
 }
 
 .mainContent {
@@ -63,6 +74,11 @@ body {
     }
   }
 }
+.panelLink {
+  &:hover {
+    text-decoration: none;
+  }
+}
 
 .panel {
   .mainContent {
@@ -82,7 +98,6 @@ body {
       font-size: 27px;
       margin: 5px 0px;
     }
-
     h2.date {
       margin: 10px 0px;
       font-size: 16px;
@@ -100,7 +115,71 @@ body {
   }
 }
 
-.summaryList a:hover {
-  cursor: pointer;
-  text-decoration: none;
+.navbar-brand.leaveLeftSpace {
+  margin-left: 30px;
+}
+
+.showSidebar {
+  position: absolute;
+  top: 14px;
+  left: 15px;
+  color: #777;
+  font-size: 18px;
+}
+
+.sidebar {
+  position: fixed;
+  z-index: 1000000;
+  height: 100vh;
+  background: #f8f8f8;
+  border: 1px #e8e8e8 solid;
+
+  &.show {
+    left: 0px;
+  }
+
+  left: -250px;
+  transition: 0.5s;
+
+  .sidebarHeader {
+    padding: 10px;
+    background-color: #e8e8e8;
+
+    h3 {
+      margin: 0;
+    }
+  }
+
+  li a {
+    overflow: hidden;
+
+    &:hover, &:focus {
+      background-image: none;
+    }
+
+    &.open {
+      background-color: inherit;
+    }
+  }
+  ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
+  }
+
+  ul.dropdown-menu {
+    position: relative;
+    background-color: inherit;
+    border: none;
+    box-shadow: none;
+  }
+
+  ul li.active > a, a[aria-expanded="true"] {
+    background-color: inherit;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: 0px; // overriding a weird -15px from bootstrap :/
+  }
 }

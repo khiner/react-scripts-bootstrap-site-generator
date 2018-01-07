@@ -4,7 +4,7 @@ This [npm package](https://www.npmjs.com/package/react-scripts-bootstrap-site-ge
 
 The packages and template have been adapted to work as a crazy simple, opinionated static site generator using bootstrap and a custom config format.
 
-To see an example of a full site using this framework, check out [my portfolio site](https://karlhiner.com/).
+To see an example of a full site using this framework, check out [my blog](https://karlhiner.com/).
 
 ## Design goals
 * Make it as quick as possible to get *something meaningful* in the browser
@@ -15,7 +15,7 @@ To see an example of a full site using this framework, check out [my portfolio s
 * Straightforward deployment: run `npm build` and `scp` the `build` directory to my hosting service's `public_html` directory
 * A modern stack with all the trimmings, including a precommit hook for automatic style-enforcement and sass support with file watching
 
-*Disclaimer: This project was built to suit the needs of the author, and in particular the portfolio page above.
+*Disclaimer: This project was built to suit the needs of the author, and in particular the blog site above.
 Although it is somewhat expressive, it is not designed to be highly robust and extensible.  For more complex projects,
 expect to modify the code generated in `src/app` to suit your needs.*
 

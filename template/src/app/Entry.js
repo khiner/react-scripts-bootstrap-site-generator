@@ -36,14 +36,19 @@ export default function Entry(props) {
           {date && <h2 className="date">{date}</h2>}
           {props.children}
         </div>
-        {title && url && <ShareButtons
-          title={title || ''}
-          description={descriptionPlainText || description || ''}
-          url={url || ''}
-        />}
+        {title &&
+          url && (
+            <ShareButtons
+              title={title || ''}
+              description={descriptionPlainText || description || ''}
+              url={url || ''}
+            />
+          )}
       </div>
       {columnBreak}
-      {config.disqusShortname && disqusConfig.url && disqusConfig.identifier && (
+      {config.disqusShortname &&
+        disqusConfig.url &&
+        disqusConfig.identifier && (
           <DiscussionEmbed
             shortname={config.disqusShortname}
             config={disqusConfig}

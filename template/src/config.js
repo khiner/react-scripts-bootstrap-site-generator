@@ -29,4 +29,7 @@ export default {
   // Change the 'Subscribe' link to a 'Share & Subscribe' link with share icons?
   // (Or add a 'Share' link if no mailChimp fields populated)
   showShareNavItem: false,
+  // Should entries go in a collapsable sidebar instead of in the main nav?
+  // (Useful if you have many top-level entry sections)
+  entriesInSidebar: false,
 }
