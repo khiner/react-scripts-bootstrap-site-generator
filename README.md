@@ -33,11 +33,11 @@ That's it!
 
 Your browser should load a new tab to `localhost:3000` and you'll be greeted with the example app:
 
-![](https://user-images.githubusercontent.com/685394/34635675-ed9c5c50-f247-11e7-9524-3d424484af6a.png)
+![](https://user-images.githubusercontent.com/685394/34689739-74293480-f46b-11e7-844b-6dabbfe01d4e.gif)
 
 If you want a collapsable sliding-animated sidebar for your posts instead of in the top navbar (say if you have too many to fit in the navbar), you can specify `entriesInSidebar: true` in the `config.js` file, and you'll get something like this:
 
-![](https://user-images.githubusercontent.com/685394/34689739-74293480-f46b-11e7-844b-6dabbfe01d4e.gif)
+![](https://user-images.githubusercontent.com/685394/34689986-4b7ca25a-f46c-11e7-8e8a-31b83d94f725.gif)
 
 ## Adding new pages and content
 
