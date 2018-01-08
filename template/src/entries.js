@@ -17,7 +17,7 @@ const entries = [
     // To be sorted correctly, date strings must be parseable by Javascript's `Date.parse(...)`
     // If no date is provided, the entry will still get its own nav and page, but will not be included in the summary list.
     // This is useful for static, unchanging pages like an 'About' section that aren't considered "Posts"
-    date: 'Jan 1 2017',
+    date: 'Jan 1 2018',
     // A `disqusId` must be provided, along with a `disqusShortname` in `src/config.js` to render a Disqus comment section
     // below the entry on its page.
     disqusId: 'MySweetPost',
@@ -48,14 +48,14 @@ const entries = [
   {
     path: '/example_section/post',
     title: 'Another Sweet Post',
-    date: 'Jan 3 2017',
+    date: 'Jan 3 2018',
     description: 'Non-structured description',
     content: 'Simple content',
   },
   {
     path: '/example_section/other_post',
     title: 'Yet Another Totally Rad Post',
-    date: 'Jan 1 2017',
+    date: 'Jan 1 2018',
     description: 'Another non-structured description',
     content: 'More simple content',
   },
