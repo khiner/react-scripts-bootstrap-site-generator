@@ -1,5 +1,7 @@
 # react-scripts-bootstrap-site-generator
 
+_This is old stuff. As of 2023, you should probably use Vite or somesuch._
+
 This [npm package](https://www.npmjs.com/package/react-scripts-bootstrap-site-generator) builds on top of the default [react-scripts](https://github.com/facebookincubator/create-react-app/tree/master/packages/react-scripts) configuration and scripts used by [Create React App](https://github.com/facebookincubator/create-react-app).
 
 It's designed to work as a crazy simple, opinionated static site generator using React, Bootstrap and a custom config format.
